@@ -1,19 +1,36 @@
 # v-affix
 
-> vue component
-
-## Build Setup
+## Install
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+npm install v-affix --save
 ```
+
+## Usage
+
+CommonJS
+
+```` javascript
+var Affix = require('v-affix');
+
+new Vue({
+  components: {
+    Affix: Affix
+  }
+});
+````
+
+ES6
+
+```` javascript
+import Affix from 'v-affix';
+
+new Vue({
+  components: {
+    Affix
+  }
+});
+````
 
 ## License
 
