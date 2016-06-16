@@ -10,6 +10,10 @@
     "build": "npm run clean && cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.config.build.js && webpack --progress --hide-modules --config webpack.config.build.min.js",
     "prepublish": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:v-components/v-affix.git"
+  },
   "keywords": [
     "vue",
     "vue-component"
